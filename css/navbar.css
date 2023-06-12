@@ -1,0 +1,31 @@
+
+#navbar{
+    height: 50px;
+    background-color: #2266BB;
+    font-family: 'Poppins'; 
+    border-radius: 50px;   
+    display: flex;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    
+   
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;  
+    margin: 0 20px;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 5px 20px;
+    border: 2px solid rgb(77, 77, 163);
+    border-radius: 50px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
